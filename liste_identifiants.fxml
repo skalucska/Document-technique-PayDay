@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="672.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.lsd">
+   <children>
+      <Button fx:id="validerButton4" layoutX="490.0" layoutY="603.0" mnemonicParsing="false" onAction="#handleButton2" text="Suivants">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tbl2" layoutX="39.0" layoutY="159.0" prefHeight="444.0" prefWidth="523.0">
+         <columns>
+            <TableColumn fx:id="dateconne" prefWidth="176.0" text="date_de_connexion" />
+            <TableColumn fx:id="identifiant" prefWidth="232.0" text="Identifiants" />
+         </columns>
+      </TableView>
+      <Label fx:id="lis" layoutX="171.0" layoutY="52.0" text="Liste Identifiants">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
